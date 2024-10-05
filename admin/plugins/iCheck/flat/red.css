@@ -1,0 +1,19 @@
+UG]  GmsService: sending message to FirstService
+(1432)[2023-08-08 13:50:33.520678] [LM_DEBUG]  GmsService: sending message - found destination service
+(1432)[2023-08-08 13:50:33.520678] [LM_DEBUG]  CONF: <-- StopAceService
+(1432)[2023-08-08 13:50:33.520678] [LM_DEBUG]  CONF: <-- ChangeServiceState Status: 0
+(1432)[2023-08-08 13:50:33.520678] [LM_DEBUG]  CONF: <-- HandleAceMessage
+(1432)[2023-08-08 13:50:33.520678] [LM_DEBUG]  GMSC: <-- handle_output
+(1432)[2023-08-08 13:50:33.520678] [LM_DEBUG]  GMSC: --> handle_output
+(1432)[2023-08-08 13:50:33.520678] [LM_DEBUG]  FirstService
+(1432)[2023-08-08 13:50:33.520678] [LM_DEBUG]  GMSC: --> HandleAceMessage
+(1432)[2023-08-08 13:50:33.520678] [LM_DEBUG]  GMSC: --> closeSubService
+(1432)[2023-08-08 13:50:33.520678] [LM_DEBUG]  GmsService: sending message to Configurator
+(1432)[2023-08-08 13:50:33.520678] [LM_DEBUG]  GmsService: sending message - found destination service
+(1432)[2023-08-08 13:50:33.520678] [LM_DEBUG]  FirstService
+(1432)[2023-08-08 13:50:33.520678] [LM_DEBUG]  GMSC: <-- closeSubService
+(1432)[2023-08-08 13:50:33.520678] [LM_DEBUG]  GMSC: <-- HandleAceMessage Status: 526
+(1432)[2023-08-08 13:50:33.520678] [LM_DEBUG]  GMSC: <-- handle_output
+(1432)[2023-08-08 13:50:33.520678] [LM_DEBUG]  GMSC: --> handle_output
+(1432)[2023-08-08 13:50:33.520678] [LM_DEBUG]  Configurator
+(1432)[2023-08-08 13:50:33.520678] [LM_DEBUG]  

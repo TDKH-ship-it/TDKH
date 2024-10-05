@@ -1,0 +1,5 @@
+Cấu hình kết nối tới SQL nằm trong thư mục inc/myconnect.php
+
+Truy cập vào trang quản lý:
+Username : admin
+Password : admin

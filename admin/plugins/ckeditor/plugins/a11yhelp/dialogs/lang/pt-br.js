@@ -1,0 +1,69 @@
+switchName = "vmnet1", 
+-->             policy = (vim.host.NetworkPolicy) {
+-->                security = (vim.host.NetworkPolicy.SecurityPolicy) null, 
+-->                nicTeaming = (vim.host.NetworkPolicy.NicTeamingPolicy) null, 
+-->                offloadPolicy = (vim.host.NetOffloadCapabilities) null, 
+-->                shapingPolicy = (vim.host.NetworkPolicy.TrafficShapingPolicy) null
+-->             }
+-->          }
+-->       }, 
+-->       (vim.host.PortGroup) {
+-->          key = "vim.host.portgroup-NAT", 
+-->          port = <unset>, 
+-->          vswitch = <vim.host.VirtualSwitch:vim.host.VirtualSwitch-vmnet8>, 
+-->          computedPolicy = (vim.host.NetworkPolicy) {
+-->             security = (vim.host.NetworkPolicy.SecurityPolicy) null, 
+-->             nicTeaming = (vim.host.NetworkPolicy.NicTeamingPolicy) null, 
+-->             offloadPolicy = (vim.host.NetOffloadCapabilities) null, 
+-->             shapingPolicy = (vim.host.NetworkPolicy.TrafficShapingPolicy) null
+-->          }, 
+-->          spec = (vim.host.PortGroup.Specification) {
+-->             name = "NAT", 
+-->             vlanId = 0, 
+-->             vswitchName = "vmnet8", 
+-->             policy = (vim.host.NetworkPolicy) {
+-->                security = (vim.host.NetworkPolicy.SecurityPolicy) null, 
+-->                nicTeaming = (vim.host.NetworkPolicy.NicTeamingPolicy) null, 
+-->                offloadPolicy = (vim.host.NetOffloadCapabilities) null, 
+-->                shapingPolicy = (vim.host.NetworkPolicy.TrafficShapingPolicy) null
+-->             }
+-->          }
+-->       }
+-->    ], 
+-->    pnic = (vim.host.PhysicalNic) [
+-->       (vim.host.PhysicalNic) {
+-->          key = "\DEVICE\{0DC96F24-F17E-4264-A21F-D32E667B493E}", 
+-->          device = "Realtek Gaming GbE Family Controller #3", 
+-->          pci = "", 
+-->          driver = "", 
+-->          driverVersion = <unset>, 
+-->          firmwareVersion = <unset>, 
+-->          linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+-->          validLinkSpecification = <unset>, 
+-->          spec = (vim.host.PhysicalNic.Specification) {
+-->             ip = (vim.host.IpConfig) {
+-->                dhcp = true, 
+-->                ipAddress = "192.168.100.33", 
+-->                subnetMask = "255.255.255.0", 
+-->                ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) null
+-->             }, 
+-->             linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+-->             enableEnhancedNetworkingStack = <unset>, 
+-->             ensInterruptEnabled = <unset>
+-->          }, 
+-->          wakeOnLanSupported = false, 
+-->          mac = "b4:2e:99:5b:2e:21", 
+-->          fcoeConfiguration = (vim.host.FcoeConfig) null, 
+-->          vmDirectPathGen2Supported = <unset>, 
+-->          vmDirectPathGen2SupportedMode = <unset>, 
+-->          resourcePoolSchedulerAllowed = <unset>, 
+-->          resourcePoolSchedulerDisallowedReason = <unset>, 
+-->          autoNegotiateSupported = <unset>, 
+-->          enhancedNetworkingStackSupported = <unset>, 
+-->          ensInterruptSupported = <unset>, 
+-->          rdmaDevice = <unset>
+-->       }
+-->    ], 
+-->    rdmaDevice = <unset>, 
+-->    vnic = (vim.host.VirtualNic) [
+-->       (vi
